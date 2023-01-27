@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        .main{
+            background-image: url(women2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            min-height: 600px;
+            width: 100%;
+            position: relative;
+            
+            
+            
+           
+        }
+        .header{
+            position: sticky ;
+            top: 0;
+            
+            
+
+        }
+
+
+        .navbar,.section2,.section5,.section6,.event1,.section7, .address {
+            display: flex;
+            
+        }
+        .margin,.section2,.section3,.section4,.section5,.section6,.section7{
+            padding-bottom: 50px;
+            
+        }
+        
+        .main2{
+            padding-top: 50px;
+        }
+        .main7{
+            background-color: #2f2f2f;
+        }
+
+
+
+        .navbar,.sec1,.section2,.section5,.section6,.section7{
+            
+            max-width: 1250px;
+            width: 100%;
+            justify-content: space-between;
+            margin: auto;
+            
+            
+        }
+        .list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+
+
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+        ul{
+            display: flex;
+            
+        }
+        ul li{
+            margin: 0 8px;
+            list-style-type: none;
+            
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .search{
+            max-width: 100px;
+            max-height: 50px;
+        }
+        h1,.white{
+            color: white;
+
+        }
+        .sec1{
+            padding-top: 100px;
+            padding-bottom: 50px;
+        }
+        .button{
+            border: 1px solid #088f8f;
+            background-color: #088f8f;
+            padding: 20px;
+            
+            
+
+        }
+        .register-now{
+            border: 1px solid white;
+            background-color: white;
+            padding: 10px;
+            margin-right: 20px;
+        }
+        
+        .image{
+            
+            background-color: #088f8f;
+            min-width: 200px;
+            
+            
+        }
+        .section7{
+            margin-top: 30px;
+            color: white;
+        }
+        .edufair5,.address{
+            margin-top: 30px;
+        }
+        
+    
+        .women-hand{
+            min-width: 300px;
+            max-height: 150px;
+        }
+
+        .course-selection{
+            min-width: 350px;
+            max-height: 200px;
+        }
+
+
+        .text{
+            text-align: center;
+            color: white;
+        }
+        .coll{
+            color: white;
+            padding-top: 10px;
+            padding-left: 30px;
+            
+        }
+        .colle{
+            color: white;
+            padding-bottom: 20px;
+            padding-left: 30px;
+        }
+        
+        
+        
+        .comp{
+            max-width: 100px;
+            max-height: 100px;
+        }
+        
+            
+        
+        
+        .college{
+            position: absolute;
+            z-index: -1;
+            min-width: 1250px;
+            max-height: 100px;
+            
+            
+        }
+        .section3,.section4{
+            max-width: 1250px;
+            
+            width: 100%;
+            margin: auto;
+            
+        }
+        .image3,.flex{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .black{
+            color: black;
+            float: right;
+        
+        }
+        .course,.about1{
+            color: black;
+            padding-bottom: 30px;
+            
+            
+        }
+        .about1,.about{
+            padding-left: 20px;
+        }
+
+        .mar {
+            padding-left: 20px;
+
+        }
+        .classes1,.library1,.transport1 {
+           border: 2px solid whitesmoke;
+           max-width: 350px;
+        }
+        .classes,.library,.transport {
+           border: 2px solid whitesmoke;
+           max-width: 300px;
+
+        }
+        
+        .border-colour, h5{
+            border-left: 5px solid #088f8f;
+            padding-left: 10px;
+        }
+
+        
+        .about1{
+            line-height: 30px;
+        }
+        .date1{
+            border: 2px solid #088f8f;
+            
+        }
+        .date{
+            color: #088f8f;
+        }
+        .date1,.note{
+        
+            
+            min-width: 150px;
+            min-height: 150px;
+            
+        }
+        .date1,.date2{
+            text-align: center;
+            margin: 5px;
+        }
+        .event,.notice-board,.latest-news{
+            
+            max-width: 350px;
+            max-height: 600px;
+            border: 2px solid whitesmoke;
+            
+        }
+        .couple{
+            max-width: 150px;
+            min-height: 150px;
+        }
+        .note1{
+            margin: 5px;
+            min-height: 150px;
+
+        }
+        .address{
+            align-items: center;
+        }
+        .address1{
+            min-height: 250px;
+            min-width: 200px;
+            
+        }
+        .add{
+            color: white;
+        }
+        .mouse-hover a{
+            display: block;
+            
+            color:#088f8f;
+        }
+        .mouse-main:hover .mouse-hover{
+            display:block;
+        
+
+        } 
+        .mouse-hover{
+            display: none;
+            position: absolute;
+        }
+        summary{
+            color: #088f8f;
+            font-weight: bold;
+            
+        }
+        
+        
+        
+       
+        
+            
+        
+
+
+
+    </style>
+    <body>
+        
+         <div class="main">
+        <div class="header">
+            
+            <div class="navbar">
+                <div class="logo">
+                    <img class="edufair" src="edufair1.jpg" alt="error" width="100px">
+                    <h1>Edufair</h1>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><div class="mouse-main"><a href="#">HOME</a>
+                        <div class="mouse-hover">
+                            <a href="#">Course</a>
+                            <a href="#">Library</a>
+                            <a href="#">Classes</a>
+                            <a href="#">Lab</a></div></div></li>
+                        
+                        
+                        <li><div class="mouse-main"><a href="#">COURSE</a>
+                            <div class="mouse-hover">
+                                <a href="#">Course</a>
+                                <a href="#">Library</a>
+                                <a href="#">Classes</a>
+                                <a href="#">Lab</a></div></div>
+                        </li>
+
+
+                        <li><div class="mouse-main"><a href="#">PAGES</a>
+                            <div class="mouse-hover">
+                                <a href="#">Course</a>
+                                <a href="#">Library</a>
+                                <a href="#">Classes</a>
+                                <a href="#">Lab</a></div></div>
+                        </li>
+
+
+                        <li><div class="mouse-main"><a href="#">BLOG</a>
+                            <div class="mouse-hover">
+                                <a href="#">Course</a>
+                                <a href="#">Library</a>
+                                <a href="#">Classes</a>
+                                <a href="#">Lab</a></div></div>
+                        </li>
+
+
+
+                        <li><a href="#">SHOP</a></li>
+                        <li><a href="#">COMPONENT</a></li>
+                    </ul>
+                   <a href="#"> <img class="search" src="searchicon.png" alt="error"></a>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="sec1">
+            
+            <p class="white">Change is the end result of all true learning.</p>
+            <h1>Like what you are learning</h1>
+            <h1 class="margin">Get started today</h1>
+            <a class="button" href="#">GET STARTED NOW</a>
+        </div>
+        
+        </div>
+        </div>
+
+
+ <div class="main2">
+<div class="section2">
+<div class="image">
+
+<img class="comp" src="com.jpeg" alt="error"><h4 class="text">computer lab</h4>
+ 
+<img class="comp" src="music.jpeg" alt="error"><h4 class="text">Music Instrument</h4>
+
+<img class="comp" src="i.jpeg" alt="error"><h4 class="text">Art & Culture</h4>
+
+</div>
+                
+                
+                
+<div class="classes">
+<div> <h2 class="border-colour">CLASSES</h2>
+ <img class="women-hand" src="women-hand.jpg" alt="error">
+<h3>Multimedia Classes</h3>
+<p>The ED Community School District is made up of five elementary schools one middle.</p>
+<details><summary>READ MORE</summary>
+    <P>School District is made up of five elementary schools one middle.</P></details></div>
+ </div>
+                
+<div class="library">
+<div> <h2 class="border-colour">LIBRARY</h2>
+ <img class="women-hand" src="library.jfif" alt="error">
+<h3>Excelent Library</h3>
+<p>The ED Community School District is made up of five elementary schools one middle.</p>
+<details>
+    <summary>READ MORE</summary>
+    <P>School District is made up of five elementary schools one middle.</P>
+</details></div>
+</div>
+                
+<div class="transport">
+ <h2 class="border-colour">TRANSPORT</h2>
+<div> <img class="women-hand" src="transport.jfif" alt="error"></div>
+<div><h3>Transport Facilities</h3>
+<p>The ED Community School District is made up of five elementary schools one middle.</p>
+<details>
+    <summary>READ MORE</summary>
+    <P>School District is made up of five elementary schools one middle.</P>
+</details></div>
+</div>
+                
+                 
+                
+
+</div>
+</div>
+
+<div class="main3">
+    <div class="section3">
+
+        <div class="image3">
+            <img class="college" src="college-group.jpg" alt="error">
+             <div><p class="coll">Edufair gives you the tools to create an online course.</p>
+            <h2 class="colle">The art of teaching is the art of discovery</h2></div>
+            <div class="register-now"><a class="black" href="#">REGISTER NOW</a></div></div>
+           
+        
+        
+    </div>
+</div>
+<div class="main4">
+<div class="section4">
+    <div><p>Join our latest course</p>
+    <h1 class="course">Courses</h1></div>
+    <div class="flex">
+        <div class="classes1">
+            
+            <div> <img class="course-selection" src="thinking-men.jpg" alt="error"></div>
+            <div class="mar"><p>Computer Science</p>
+            <h3>The Complete IOS Design</h3>
+            <p>You will learn to develop sophisticated user interfaces for iOS, with a focus on user interface.</p>
+            <button class="button"><a href="#">APPLY NOW</a></button></div>
+             </div>
+                            
+            <div class="library1">
+            
+            <div> <img class="course-selection" src="two.jpg" alt="error"></div>
+            <div class="mar"><p>Agricultural Science</p>
+            <h3>Become a SuperLearner V2</h3>
+            <p>Agricultural science is a broad multidisciplinary field of biology that encompasses the parts.</p>
+            <button class="button"><a href="#">APPLY NOW</a></button></div>
+            </div>
+                            
+            <div class="transport1">
+            
+            <div> <img class="course-selection" src="writting.jpg" alt="error">
+            <div class="mar"><p>Political Science</p>
+            <h3>NLP Practitioner Certification</h3>
+            <p>Political science is the scientific study of politics. It is a social science dealing with systems.</p>
+            
+            <button class="button"><a href="#">APPLY NOW</a></button></div>
+            </div>
+    </div>
+</div>
+
+</div>
+<div class="main5">
+    <div class="section5">
+        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/Ftis42gnkCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+   <div class="about"><h1 class="about1">ABOUT EDUFAIR</h1>
+                      <P class="about1">EDUfair is the largest international educational fair in Serbia, held in Belgrade every year. It enables youths from Serbia and the region to acquire all the essential information about studying programs since 2004.EDUfair gathers variety of different universities, faculties and other study program facilities from all over Serbia (Beograd, Novi Sad, Niš, Kragujevac, etc.) and from abroad (Austria, Australia, Greece, Canada, Hungary, Italy, Germany, United States, Great Britain, France, Croatia, Czech Republic, Slovenia, Switzerland, etc.). Exhibitors at EDUfair present new accredited academic and professional programs and offer scholarships and job opportunities after graduation.</P>
+   </div>
+    </div>
+</div>
+<div class="main6">
+    <div class="section6">
+        <div class="event"><h5>Events</h5>
+            
+            <div class="event1">
+            <div class="date1"><h1 class="date">25</h1>
+                              <p class="date">Aug 2017</p>
+            </div>
+            <div class="note">
+                    <p>salesforce Visual Workflow Complete Cisco Network</p>
+                    <p>8:00 AM - 12:00PM</p>
+            </div>
+            </div>
+
+            <div class="event1">
+                <div class="date1"><h1 class="date">27</h1>
+                                  <p class="date">Aug 2017</p>
+                </div>
+                <div class="note">
+                        <p>Doctor System Absolute Beginner Center Course</p>
+                        <p>8:00 AM - 12:00PM</p>
+                </div>
+                </div>
+
+                <div class="event1">
+                    <div class="date1"><h1 class="date">30</h1>
+                                      <p class="date">Aug 2017</p>
+                    </div>
+                    <div class="note">
+                            <p>Doctor System Absolute Beginner Center Course</p>
+                            <p>8:00 AM - 12:00PM</p>
+                    </div>
+                    </div>
+
+
+
+
+
+
+        </div>
+        <div class="notice-board">
+
+            
+            <div class="event"><h5>Notice Board</h5>
+            
+                
+                
+                <div class="note1">
+                        <p>22 JULY 2017</p>
+                        <p>Online Master Professional Course And Certification Projects</p>
+                        
+                </div>
+                
+    
+                
+                    
+                    <div class="note1">
+                            <p>27 JULY 2017</p>
+                            <p>The Complete Job Interview & Network Resume Linkedln Profile </p>
+                            
+                    </div>
+                    
+    
+                    
+                        
+                        <div class="note1">
+                               <p>22 JULY 2017</p>
+                                <p>The Complete Job Interview & Network Resume Linkedln Profile</p>
+                                
+                        
+                        </div>
+    
+    
+    
+    
+    
+    
+            </div>
+
+
+
+
+        </div>
+
+        <div class="latest-news">
+
+
+
+            <div class="event"><h5>Latest News</h5>
+            
+                <div class="event1">
+                <div class="date2">
+                    <img class="couple" src="couple.jpg" alt="error">
+                </div>
+                <div class="note">
+                        <p>Master Practitioner Course And Certification Projects</p>
+                        <p>22 July, 2017</p>
+                </div>
+                </div>
+    
+                <div class="event1">
+                    <div class="date2">
+                        <img class="couple" src="writting.jpg" alt="error">
+                    </div>
+                    <div class="note">
+                            <p>The Complete Job, Interview, Resume/Linkedin & Network</p>
+                            <p>22 July, 2017</p>
+                    </div>
+                    </div>
+    
+                    <div class="event1">
+                        <div class="date2">
+                            <img class="couple" src="two-studying.jfif" alt="error">
+                            
+                        </div>
+                        <div class="note">
+                                <p>Shamanic Initiation Spirtual Awakening Certification</p>
+                                <p>22 July, 2017</p>
+                        </div>
+                        </div>
+
+
+
+
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<div class="main7">
+ 
+    <div class="section7">
+        <div class="address1">
+        <div class="address">
+            <img class="edufair5" src="edufair1.jpg" alt="error" width="100px">
+            <h3 class="add">Edufair</h3>
+        </div>
+        <p>(00) 123456789</p>
+        <a href="mailto:hello@edufair.com">mailto:hello@edufair.com</a>
+        <address><p>123 walton gargo street,</p>
+                <p>west town,London,UK</p>
+        </address>
+        </div>
+
+
+        <div class="address1">
+            <div class="address">
+                
+                <h3 class="add">COMPANY</h3>
+            </div>
+            <p>Help Center</p>
+            <p>Student Support</p>
+            <p>Language Pack</p>
+            <p>Privacy Policy</p>
+            <p>Become a Teacher</p>
+            
+            </div>
+
+
+
+            <div class="address1">
+                <div class="address">
+                    
+                    <h3 class="add">USEFUL LINKS</h3>
+                </div>
+                <p>Help Center</p>
+                <p>Student Support</p>
+                <p>Language Pack</p>
+                <p>Privacy Policy</p>
+                <p>Become a Teacher</p>
+                
+                </div>
+
+
+
+                <div class="address1">
+                    <div class="address">
+                        
+                        <h3 class="add">SUPPORT</h3>
+                    </div>
+                    <p>Help Center</p>
+                    <p>Student Support</p>
+                    <p>Language Pack</p>
+                    <p>Privacy Policy</p>
+                    <p>Become a Teacher</p>
+                    
+                    </div>
+
+
+
+                    <div class="address1">
+                        <div class="address">
+                            
+                            <h3 class="add">COMMMUNITY</h3>
+                        </div>
+                        <p>Help Center</p>
+                        <p>Student Support</p>
+                        <p>Language Pack</p>
+                        <p>Privacy Policy</p>
+                        <p>Become a Teacher</p>
+                        
+                        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+
+
+        
+       
+    
+
+
+    </body>
+</html>
